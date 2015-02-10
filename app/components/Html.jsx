@@ -33,7 +33,7 @@ var Html = React.createClass({
                 <div id="app" dangerouslySetInnerHTML={{__html: this.props.markup}}></div>
             </body>
             <script dangerouslySetInnerHTML={{__html: this.props.state}}></script>
-            <script src="/public/build/bundsle.js" defer></script>
+            <script src="/public/build/bundle.js" defer></script>
             </html>
         );
     }
