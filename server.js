@@ -56,6 +56,6 @@ server.use(function (req, res, next) {
     });
 });
 
-var port = process.env.PORT || 3003;
+var port = process.env.PORT || 3040;
 server.listen(port);
 console.log('Listening on port ' + port);
