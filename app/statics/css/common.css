@@ -1,0 +1,11 @@
+html {
+	background-color: white;
+}
+
+.pure-menu {
+	list-style-type: none;
+	display: block;
+}
+.pure-menu li{
+	display: inline-block;
+}
